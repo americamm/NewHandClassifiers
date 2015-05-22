@@ -1,0 +1,1 @@
+opencv_traincascade -data classifier -vec samples.vec -bg negatives.txt -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -numPos 3000 -numNeg 4000 -w 40 -h 20 -featureType HAAR -mode ALL -precalcValBufSize 2048 -precalcIdxBufSize 2048
